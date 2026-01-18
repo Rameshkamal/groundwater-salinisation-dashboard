@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Groundwater Salinisation Dashboard", layout="wide")
 
-st.title("🌊 Groundwater Salinisation Dashboard")
+st.title("🌊 Jal Shuddhi-SAMAR")
 st.write("Upload hydrochemical data to identify groundwater salinisation.")
 
 # -------------------------
@@ -176,4 +176,5 @@ if uploaded_file:
     )
 
 else:
+
     st.info("👆 Upload a hydrochemical dataset to begin.")
